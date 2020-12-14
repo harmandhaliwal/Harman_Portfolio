@@ -1,4 +1,4 @@
-# Harman Portfolio
+# Harman's Portfolio
 Harman Dhaliwal Data Science Portfolio
 
 # [Ball Image Classifier](https://github.com/harmandhaliwal/Ball-Image-Classifier)
