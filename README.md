@@ -14,3 +14,12 @@ Using a dataset comprised of songs of two music genres (Hip-Hop and Rock), I tra
 
 # [Google Trends Time Series Analysis](https://github.com/harmandhaliwal/GoogleTrendsTimeSeriesAnalysis)
 In this notebook I used a dataset that contains Google trend data for the keywords diet', 'gym' and 'finance' to see how they vary over time. I scraped this dataset using [Google Trends](https://trends.google.com/trends/?geo=US). Next, I wrangled/cleaned the data then I preformed exploratory data analysis. Seasonality, trends, correlation, autocorrelation, and first order differencing were concepts that we looked at during the analysis.
+
+# [NBA Salary Predictor](https://github.com/harmandhaliwal/NBA_Salary_Predictor)
+* Created a tool that estimates NBA player annual salary (MAE ~ $ 484K) to help NBA free agents/front offices negotiate future contracts.
+* Scraped NBA player contract data and NBA player per game stats data from [Basketball Reference](https://www.basketball-reference.com/)
+* Preformed data cleaning/wrangling on raw scraped dataset.
+* Conducted exploratory analysis to view and analyze correlation plot/regression line scatter plot
+* Engineered features from the per game stats dataset to quantify the value teams put on particular stat categories. 
+* Built models using linear and multiple linear regression.
+
