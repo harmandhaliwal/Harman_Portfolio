@@ -9,6 +9,7 @@ I was able to get the model to predict the sport of the ball with 94% accuracy a
 # [Movie Similarity]( https://github.com/harmandhaliwal/MovieSimilarity) 
 In this Project, I used NLP to find the degree of similarity between movies based on their plots available on IMDb and Wikipedia, then seperated them into groups, also known as clusters. Next, I created a dendrogram to represent how closely the movies are related to each other. The dataset I used contains the titles of the top 100 movies on [IMDb](https://www.imdb.com/) as well as each movie's plot summary from both IMDb and Wikipedia.
 
-
+# [Song Genre Classification](https://github.com/harmandhaliwal/SongClassification)
+Using a dataset comprised of songs of two music genres (Hip-Hop and Rock), I trained a classifier to distinguish between the two genres based on track information derived from [Echonest](http://the.echonest.com). I began by using `pandas` and `seaborn` packages for subsetting the data, aggregating information, and creating plots when exploring the data for obvious trends or factors(data cleaning & exploratory data visualization). Next, I used the `scikit-learn` package to predict whether you can correctly classify a song's genre based on features such as danceability, energy, acousticness, tempo, etc, through simple machine learning algorithms such as decision trees and logistic regression.
 
 
