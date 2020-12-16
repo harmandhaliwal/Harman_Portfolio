@@ -11,11 +11,19 @@ I was able to get the model to predict the sport of the ball with 94% accuracy a
 # [Movie Similarity](https://github.com/harmandhaliwal/MovieSimilarity) 
 In this Project, I used NLP to find the degree of similarity between movies based on their plots available on IMDb and Wikipedia, then seperated them into groups, also known as clusters. Next, I created a dendrogram to represent how closely the movies are related to each other. The dataset I used contains the titles of the top 100 movies on [IMDb](https://www.imdb.com/) as well as each movie's plot summary from both IMDb and Wikipedia.
 
+![](/images/movie_dendrogram.png)
+
 # [Song Genre Classification](https://github.com/harmandhaliwal/SongClassification)
 Using a dataset comprised of songs of two music genres (Hip-Hop and Rock), I trained a classifier to distinguish between the two genres based on track information derived from [Echonest](http://the.echonest.com). I began by using `pandas` and `seaborn` packages for subsetting the data, aggregating information, and creating plots when exploring the data for obvious trends or factors(data cleaning & exploratory data visualization). Next, I used the `scikit-learn` package to predict whether you can correctly classify a song's genre based on features such as danceability, energy, acousticness, tempo, etc, through simple machine learning algorithms such as decision trees and logistic regression.
 
+![](/images/songpca.png)
+
+(Cumulative Explained Variance plot)
+
 # [Google Trends Time Series Analysis](https://github.com/harmandhaliwal/GoogleTrendsTimeSeriesAnalysis)
 In this notebook I used a dataset that contains Google trend data for the keywords diet', 'gym' and 'finance' to see how they vary over time. I scraped this dataset using [Google Trends](https://trends.google.com/trends/?geo=US). Next, I wrangled/cleaned the data then I preformed exploratory data analysis. Seasonality, trends, correlation, autocorrelation, and first order differencing were concepts that we looked at during the analysis.
+
+![](/images/googletrends.png)
 
 # [NBA Salary Predictor](https://github.com/harmandhaliwal/NBA_Salary_Predictor)
 * Created a tool that estimates NBA player annual salary (MAE ~ $ 484K) to help NBA free agents/front offices negotiate future contracts.
@@ -25,3 +33,4 @@ In this notebook I used a dataset that contains Google trend data for the keywor
 * Engineered features from the per game stats dataset to quantify the value teams put on particular stat categories. 
 * Built models using linear and multiple linear regression.
 
+![](/images/nbasalary.png)
