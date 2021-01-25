@@ -18,10 +18,10 @@ Using a dataset comprised of songs of two music genres (Hip-Hop and Rock), I tra
 
 ![](/images/songpca.png)
 
-(Cumulative Explained Variance plot)
+(Cumulative Explained Variance plot used to determine how many features are required to explain the majority of the variance in the data)
 
 # [Google Trends Time Series Analysis](https://github.com/harmandhaliwal/GoogleTrendsTimeSeriesAnalysis)
-In this notebook I used a dataset that contains Google trend data for the keywords diet', 'gym' and 'finance' to see how they vary over time. I scraped this dataset using [Google Trends](https://trends.google.com/trends/?geo=US). Next, I wrangled/cleaned the data then I preformed exploratory data analysis. Seasonality, trends, correlation, autocorrelation, and first order differencing were concepts that we looked at during the analysis.
+In this notebook I used a dataset that contains Google trend data for the keywords 'diet', 'gym' and 'finance' to see how they vary over time. I scraped this dataset using [Google Trends](https://trends.google.com/trends/?geo=US). Next, I wrangled/cleaned the data then I preformed exploratory data analysis. Seasonality, trends, correlation, autocorrelation, and first order differencing were concepts that we looked at during the analysis.
 
 ![](/images/googletrends.png)
 
